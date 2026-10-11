@@ -1,0 +1,5 @@
+## Bluetooth
+bluetooth.device.default_name=Galaxy A12
+
+## RIL
+ro.radio.noril=no

@@ -1,0 +1,24 @@
+on init && property:ro.boot.em.model=SM-A127F
+    setprop ro.boot.product.hardware.sku ${ro.boot.hardware.sku}
+
+on init && property:ro.boot.em.model=SM-A127M
+    setprop ro.boot.product.hardware.sku disabled
+
+on early-fs && property:ro.boot.em.model=SM-A127M
+    mount none /vendor/lib/a127m/libexynoscamera3.so /vendor/lib/libexynoscamera3.so bind
+    mount none /vendor/lib/a127m/libexynoscamera_tdnr_plugin.so /vendor/lib/libexynoscamera_tdnr_plugin.so bind
+    mount none /vendor/lib64/a127m/libexynoscamera3.so /vendor/lib64/libexynoscamera3.so bind
+    mount none /vendor/lib64/a127m/libexynoscamera_tdnr_plugin.so /vendor/lib64/libexynoscamera_tdnr_plugin.so bind
+    mount none /vendor/lib/soundfx/a127m/libswdap.so /vendor/lib/soundfx/libswdap.so bind
+    mount none /vendor/lib64/soundfx/a127m/libswdap.so /vendor/lib64/soundfx/libswdap.so bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-000000534b4d /vendor/tee/00000000-0000-0000-0000-000000534b4d bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-000048444350 /vendor/tee/00000000-0000-0000-0000-000048444350 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-0000534b504d /vendor/tee/00000000-0000-0000-0000-0000534b504d bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-0050524f4341 /vendor/tee/00000000-0000-0000-0000-0050524f4341 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-0053545354ab /vendor/tee/00000000-0000-0000-0000-0053545354ab bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-46494e474502 /vendor/tee/00000000-0000-0000-0000-46494e474502 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-474154454b45 /vendor/tee/00000000-0000-0000-0000-474154454b45 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-4b45594d5354 /vendor/tee/00000000-0000-0000-0000-4b45594d5354 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-505256544545 /vendor/tee/00000000-0000-0000-0000-505256544545 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-656e676d6f64 /vendor/tee/00000000-0000-0000-0000-656e676d6f64 bind
+    mount none /vendor/tee/a127m/00000000-0000-0000-0000-6b6e78677564 /vendor/tee/00000000-0000-0000-0000-6b6e78677564 bind

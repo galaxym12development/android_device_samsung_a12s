@@ -1,0 +1,116 @@
+# Audio - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+-vendor/lib/hw/audio.primary.exynos850.so
+-vendor/lib/libaudioproxy.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
+vendor/etc/dolby/dax-default.xml
+vendor/etc/floating_feature.xml
+vendor/etc/mixer_gains.xml
+
+# Sound Effects - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/lib/lib_SoundAlive_play_plus_ver500.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+system/system/lib/libsamsungSoundbooster_plus_legacy.so
+system/system/lib64/libsamsungSoundbooster_plus_legacy.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/etc/SoundBoosterParam.txt
+vendor/lib64/lib_SoundAlive_play_plus_ver500.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+
+# Audio Firmware - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/APDV_AUDIO_SLSI.bin
+
+# Bluetooth Firmware - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/etc/wifi/mx140_bt.hcf
+
+# Camera dependencies - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/libexynoscamera_tdnr_plugin.so
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/libexynoscamera_tdnr_plugin.so
+
+# Camera Firmware - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/firmware/setfile_4ha.bin
+vendor/firmware/setfile_gc02m1.bin
+vendor/firmware/setfile_gc02m1_macro.bin
+vendor/firmware/setfile_gc5035.bin
+vendor/firmware/setfile_gm2.bin
+vendor/firmware/setfile_sr846.bin
+vendor/firmware/tdnr_GC02M1.json
+vendor/firmware/tdnr_GC5035.json
+vendor/firmware/tdnr_S5K4HA.json
+vendor/firmware/tdnr_S5KGM2.json
+vendor/firmware/tdnr_SR846.json
+
+# HWC - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+-vendor/lib/libExynosHWCService.so
+-vendor/lib/libdrmresource.so
+-vendor/lib/libexynosdisplay.so
+-vendor/lib64/libExynosHWCService.so
+-vendor/lib64/libdrmresource.so
+-vendor/lib64/libexynosdisplay.so
+
+# NFC - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+vendor/etc/init/init.nfc.samsung.rc
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
+vendor/etc/libnfc-nxp.conf
+vendor/etc/nfc/libnfc-nxp_RF.conf
+-vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml|07d05eedf2f8d102f92825802b90ac1365ec6418|ed01982f3ec9e5bf4d03637bd4a92d70539a2ea0
+vendor/firmware/nfc/libpn557_fw.so
+vendor/lib64/android.hardware.nfc@1.0.so
+vendor/lib64/android.hardware.nfc@1.1.so
+vendor/lib64/android.hardware.nfc@1.2.so
+vendor/lib64/nfc_nci_nxpsn.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+
+# OMX Firmware - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/firmware/is_lib.bin
+vendor/firmware/is_rta.bin
+
+# TEEGRIS - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0000534b504d
+vendor/tee/00000000-0000-0000-0000-0050524f4341
+vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-46494e474502
+vendor/tee/00000000-0000-0000-0000-474154454b45
+vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-6b6e78677564
+
+# Wi-Fi - from a12snsxx-user 13 TP1A.220624.014 A127FXXSDDXJ2 release-keys
+vendor/etc/wifi/hydra_config.sdb
+vendor/etc/wifi/mx140_t_wlan.hcf
+vendor/etc/wifi/mx140_t_wlan_t.hcf
+vendor/etc/wifi/mx140_wlan.hcf
+vendor/etc/wifi/mx140_wlan_sw.hcf
+vendor/etc/wifi/mx140_wlan_t.hcf
+
+# Audio - from a12sub-user 13 TP1A.220624.014 A127MUBSEDXJ2 release-keys
+vendor/lib/soundfx/libswdap.so:vendor/lib/soundfx/a127m/libswdap.so|2cceeda9ffd3c0bb8a5fd824bfd25390baec1425
+vendor/lib64/soundfx/libswdap.so:vendor/lib64/soundfx/a127m/libswdap.so|d1b632b28c0711a1b7485652469f8bc2310beb95
+
+# Camera dependencies - from a12sub-user 13 TP1A.220624.014 A127MUBSEDXJ2 release-keys
+vendor/lib/libexynoscamera3.so:vendor/lib/a127m/libexynoscamera3.so|2490d426f5637cdda970fa9be890cc87b8710da1|b0fba60cb049d067f9d087a02bdaf249621881f0
+vendor/lib/libexynoscamera_tdnr_plugin.so:vendor/lib/a127m/libexynoscamera_tdnr_plugin.so|f6cbb505c8d9cb4d061bfb6b08937167b35b9783
+vendor/lib64/libexynoscamera3.so:vendor/lib64/a127m/libexynoscamera3.so|fecc8b9998605eaa86a7595574d1c78d44a30e78|e606354a081133a63977f5404c90f1678efa09ef
+vendor/lib64/libexynoscamera_tdnr_plugin.so:vendor/lib64/a127m/libexynoscamera_tdnr_plugin.so|f1550d1919a83400584d6f7ae56e873d278966ce
+
+# TEEGRIS - from a12sub-user 13 TP1A.220624.014 A127MUBSEDXJ2 release-keys
+vendor/tee/00000000-0000-0000-0000-000000534b4d:vendor/tee/a127m/00000000-0000-0000-0000-000000534b4d|3c3479efda74a9f7bb68fc5b57db8d4759f9240b
+vendor/tee/00000000-0000-0000-0000-000048444350:vendor/tee/a127m/00000000-0000-0000-0000-000048444350|f6be562ba579d06d4bdc1960290ecd8d6c531db8
+vendor/tee/00000000-0000-0000-0000-0000534b504d:vendor/tee/a127m/00000000-0000-0000-0000-0000534b504d|47ba026db5a696fe582b55ed0906574ddb3ef40c
+vendor/tee/00000000-0000-0000-0000-0050524f4341:vendor/tee/a127m/00000000-0000-0000-0000-0050524f4341|1daca713e283c10e0e49c7f6d1a0b4cbdfec3fbf
+vendor/tee/00000000-0000-0000-0000-0053545354ab:vendor/tee/a127m/00000000-0000-0000-0000-0053545354ab|43d313d53a8780208322ee509300bc542c2b372c
+vendor/tee/00000000-0000-0000-0000-46494e474502:vendor/tee/a127m/00000000-0000-0000-0000-46494e474502|e1a284d973d31f8d3339d7d99c14a11a062fb91c
+vendor/tee/00000000-0000-0000-0000-474154454b45:vendor/tee/a127m/00000000-0000-0000-0000-474154454b45|d0622bfac45e020c736e86b497f08d959237b0ce
+vendor/tee/00000000-0000-0000-0000-4b45594d5354:vendor/tee/a127m/00000000-0000-0000-0000-4b45594d5354|1465881eba72e0cd5956b714cfa5176fba037c43
+vendor/tee/00000000-0000-0000-0000-505256544545:vendor/tee/a127m/00000000-0000-0000-0000-505256544545|78b979bbac1a70a15a5b434de5217528b04c1934
+vendor/tee/00000000-0000-0000-0000-656e676d6f64:vendor/tee/a127m/00000000-0000-0000-0000-656e676d6f64|cd6e6957ac648c6ba604fe2871919e61d4502c47
+vendor/tee/00000000-0000-0000-0000-6b6e78677564:vendor/tee/a127m/00000000-0000-0000-0000-6b6e78677564|724913c90e5686837685672c81a6f669f367e66d
