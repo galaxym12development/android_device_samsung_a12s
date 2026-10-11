@@ -1410,15 +1410,13 @@
 
 	<path name="communication-handset-mic">
 		<path name="dev-dual-mic" />
-		<path name="set-call-wdma4-16bit-config" />
-		<path name="route-apcall-mic" />
+		<path name="route-ap-record" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 	</path>
 
 	<path name="communication-speaker-mic">
 		<path name="dev-dual-invert-mic" />
-		<path name="set-call-wdma4-16bit-config" />
-		<path name="route-apcall-mic" />
+		<path name="route-ap-record" />
 		<ctl name="ABOX Sound Type" value="SPEAKER" />
 	</path>
 
@@ -1432,8 +1430,7 @@
 
 	<path name="communication-headset-mic">
 		<path name="dev-headset-mic" />
-		<path name="set-call-wdma4-16bit-config" />
-		<path name="route-apcall-mic" />
+		<path name="route-ap-record" />
 		<ctl name="ABOX Sound Type" value="HEADSET" />
 	</path>
 
